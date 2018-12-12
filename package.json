@@ -1,22 +1,54 @@
 {
-  "name": "typeform-to-facebook-messenger",
-  "version": "1.0.2",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha tests/*.test.js --watch"
+  "_args": [
+    [
+      "typeform-to-facebook-messenger@1.0.4",
+      "/home/nandan/Documents/thebank/typeform-messenger-server"
+    ]
+  ],
+  "_from": "typeform-to-facebook-messenger@1.0.4",
+  "_id": "typeform-to-facebook-messenger@1.0.4",
+  "_inBundle": false,
+  "_integrity": "sha512-3j6hcF0EF8owW29R0sLSbHTuJAsIfpp40MPcstMNVpt6zszSBiExKyYloBCG20QbnPb9fhnhyy5IcGavqVq1jA==",
+  "_location": "/typeform-to-facebook-messenger",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "typeform-to-facebook-messenger@1.0.4",
+    "name": "typeform-to-facebook-messenger",
+    "escapedName": "typeform-to-facebook-messenger",
+    "rawSpec": "1.0.4",
+    "saveSpec": null,
+    "fetchSpec": "1.0.4"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/isabellachen/typeform-to-facebook-messenger"
-  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/typeform-to-facebook-messenger/-/typeform-to-facebook-messenger-1.0.4.tgz",
+  "_spec": "1.0.4",
+  "_where": "/home/nandan/Documents/thebank/typeform-messenger-server",
   "author": "",
-  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isabellachen/typeform-to-facebook-messenger/issues"
+  },
+  "description": "A library to transform typeform questions to responses for Facebook messenger",
   "devDependencies": {
     "chai": "^4.1.2",
     "eslint": "^5.0.0",
     "eslint-plugin-json": "^1.2.0",
     "mocha": "^5.2.0",
     "nodemon": "^1.17.5"
-  }
+  },
+  "homepage": "https://github.com/isabellachen/typeform-to-facebook-messenger#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "name": "typeform-to-facebook-messenger",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isabellachen/typeform-to-facebook-messenger.git"
+  },
+  "scripts": {
+    "test": "mocha tests/*.test.js --watch"
+  },
+  "version": "1.0.4"
 }

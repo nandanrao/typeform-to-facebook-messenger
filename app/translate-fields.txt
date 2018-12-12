@@ -71,7 +71,7 @@ const translateYesNo = (data) => {
     {
       content_type: 'text',
       title: 'no',
-      payload: 'no', // payload should include the ref of the question!
+      payload: 'no',
     },
   ]
   return response

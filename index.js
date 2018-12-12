@@ -1,3 +1,2 @@
-const translateFunctions = require('./app/translate-fields')
-
-module.exports = translateFunctions
+const t = require('./lib/translate-fields')
+module.exports = t
